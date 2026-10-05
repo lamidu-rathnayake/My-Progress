@@ -1,0 +1,17 @@
+:root {
+  --bg-main: #1e1e1e;
+  --bg-panel: #2d2d2d;
+  --text-main: #e0e0e0;
+  --accent-color: #007acc;
+  --border-color: #444444;
+}
+
+body{
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+

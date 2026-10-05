@@ -1,30 +1,63 @@
+/* 1. CSS Variables for our DAW Theme */
 :root {
   --bg-main: #1e1e1e;
   --bg-panel: #2d2d2d;
   --text-main: #e0e0e0;
+  --accent-color: #007acc;
   --border-color: #444444;
 }
 
-body {
+body{
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--bg-main);
   color: var(--text-main);
-  font-family: sans-serif;
-  
-  /* Box model adjustments */
-  margin: 0; 
-  padding: 20px;
 }
 
-.config-panel {
-  background-color: var(--bg-panel);
-  
-  /* Box model: The outline */
+.config-panel{
+  margin: 0;
+  padding: 20px;
   border: 1px solid var(--border-color);
-  border-radius: 8px; /* Softens the sharp corners */
-  
-  /* Box model: Inside space (keeps text off the border) */
-  padding: 20px; 
-  
-  /* Content sizing: Locks the panel width */
-  width: 400px; 
+  border-radius: 4px;
+  background-color: var(--bg-panel);
+  /* width: 400px; */
 }
+
+input[type="text"], select, input[type="range"] {
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+button[type="submit"]{
+  box-sizing: border-box;
+  color: var(--text-main);
+  background-color: var(--accent-color);
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#add-track-form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+
+
+

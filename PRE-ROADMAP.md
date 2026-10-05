@@ -21,8 +21,8 @@
 - [x] CSS fundamentals — the language that styles and lays out HTML content
   - [X] Selectors and specificity — targeting elements and understanding which rules win
     - [x] Learned tag, class, id, compound (using comma) and attribute selectors (using input[type="text"])  
-  - [ ] Box model — margin, border, padding, and content sizing
-  - [ ] Flexbox — one-dimensional layout for rows/columns of UI elements
+  - [x] Box model — margin, border, padding, and content sizing
+  - [X] Flexbox — one-dimensional layout for rows/columns of UI elements
   - [ ] CSS Grid — two-dimensional layout for complex page/app structures
   - [ ] Responsive design — adapting layout across screen sizes with media queries
 - [ ] Modern CSS tooling — the ecosystem around writing and organizing CSS at scale
