@@ -27,9 +27,9 @@ Become a software engineer who goes beyond generating code: someone who understa
 
 | Repository | What it holds | Status |
 |---|---|---|
-| [`<progress-repo>`]([https://github.com/<username>/<progress-repo>](https://github.com/lamidu-rathnayake)) | This repo: roadmap, logs, benchmarks, reports | 🟢 Active |
-| [`fieldsync`]([https://github.com/<username>/fieldsync](https://github.com/lamidu-rathnayake/MCS-FieldSync)) 🔒 | FieldSync solution: `FieldSync.Core`, `FieldSync.Infrastructure`, `FieldSync.API`, plus the web client | 🚧 In development (Increment 1) |
-| [`audio-ml-search`]([https://github.com/<username>/audio-ml-search](https://github.com/lamidu-rathnayake)) | Audio ML Search app and its experiments | ⏳ Planned (v1 build starts Month 7) |
+| [`<progress-repo>`](https://github.com/lamidu-rathnayake/My-Progress) | This repo: roadmap, logs, benchmarks, reports | 🟢 Active |
+| [`fieldsync`](https://github.com/lamidu-rathnayake/MCS-FieldSync) 🔒 | FieldSync solution: `FieldSync.Core`, `FieldSync.Infrastructure`, `FieldSync.API`, plus the web client | 🚧 In development (Increment 1) |
+| [`audio-ml-search`](https://github.com/lamidu-rathnayake/My-Progress) | Audio ML Search app and its experiments | ⏳ Planned (v1 build starts Month 7) |
 
 > FieldSync is a private repo. Only sanitized reports and benchmark numbers are copied into this one.
 
