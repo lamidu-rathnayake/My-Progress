@@ -1,6 +1,6 @@
 # Prerequisites: Python & FastAPI
 
-> **Scope rule:** This covers only what the 24-month roadmap assumes but does not teach. You already work in C# and SQL, so Python should take about 2–3 weeks of Monday and Wednesday evenings. Frontend is not a learning goal; the archived HTML/CSS/JavaScript material stays in `roadmaps/archive/`.
+> **Scope rule:** This covers only what the 24-month roadmap assumes but does not teach. You already work in C# and SQL, so Python should take about 2–3 weeks of Monday and Wednesday evenings.
 
 **Timing:** Python and NumPy before Month 1's spectrogram notebook (week 2). FastAPI before Month 10.
 
