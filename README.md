@@ -1,91 +1,102 @@
-# 🎵 Music & Audio Engineering
+# 🎵 Systems & Audio-ML Engineering
 
-> A 24-month journey into **Web Audio, DSP, real-time audio, C++/WASM, and Audio ML**.
+> A 24-month journey into **backend reliability, performance engineering, and audio machine learning**.
 
-**Timeline:** September 2026 → September 2028  
-**Stack:** TypeScript · Python · C++
+**Timeline:** October 2026 → September 2028  
+**Stack:** C# · Python · SQL (+ a small TypeScript UI)
 
 ## 🎯 Goal
 
-Build a research-driven **Web Audio + AI/ML capstone** while developing strong foundations in audio software engineering.
+Become a software engineer who goes beyond generating code: someone who understands how systems behave under load, how failures happen, how to measure performance, and how to build dependable software.
 
-The project focuses on:
+**Specialization:** backend systems, distributed systems, reliability, and performance engineering, with **audio ML** as the differentiating specialty.
 
-- 🌐 **Frontend:** TypeScript + React
-- 🐍 **Backend:** Python + FastAPI
-- 🤖 **ML:** Python + PyTorch + Librosa
-- 🎛️ **DSP:** C++ + JUCE (native prototype) + WebAssembly (browser)
-- 🎧 Web Audio API + AudioWorklet
-- 🧠 ONNX + WebGPU edge inference in the browser
-- ⚡ Real-time systems and performance
-- 🔐 Backend security and evaluation
+**Target:** backend, systems, and audio-ML engineering roles (including audio and music-tech teams such as Spotify).
 
-**Target:** building toward roles at companies like Spotify and other DAW / digital-audio-software teams.
+**Guiding principle:** fundamentals → working system → measurement → optimization → research.
 
-## 🏗️ Capstone — Web-Native Audio Production Environment
+## 🧩 Three Connected Projects
 
-*(previously "Audio Studio")*
+| Project | Purpose | Main stack |
+|---|---|---|
+| 🏦 **FieldSync** | Work project. Builds production-engineering skills: reliability, testing, observability. *Not part of the audio portfolio.* | C# (.NET 10) · ASP.NET Core · EF Core · PostgreSQL · React |
+| 🎧 **Audio ML Search** | Main personal project. Find similar samples and loops **by sound**, not by filename. | Python · FastAPI · PyTorch · librosa · FAISS · pgvector |
+| 🔬 **Research Capstone** | A focused engineering investigation built on Audio ML Search, not a fourth unrelated project. | Reproducible experiments · written report |
 
-A browser-based, loudness-aware audio processing and analysis application.
+## 📦 Repositories
 
-```text
-React / TypeScript
-        ↓
-Web Audio API
-        ↓
-AudioWorklet
-        ↓
-C++ DSP Engine
-        ↓
-WebAssembly
-```
+| Repository | What it holds | Status |
+|---|---|---|
+| [`<progress-repo>`]([https://github.com/<username>/<progress-repo>](https://github.com/lamidu-rathnayake)) | This repo: roadmap, logs, benchmarks, reports | 🟢 Active |
+| [`fieldsync`]([https://github.com/<username>/fieldsync](https://github.com/lamidu-rathnayake/MCS-FieldSync)) 🔒 | FieldSync solution: `FieldSync.Core`, `FieldSync.Infrastructure`, `FieldSync.API`, plus the web client | 🚧 In development (Increment 1) |
+| [`audio-ml-search`]([https://github.com/<username>/audio-ml-search](https://github.com/lamidu-rathnayake)) | Audio ML Search app and its experiments | ⏳ Planned (v1 build starts Month 7) |
 
-The Python backend serves the React application and communicates with a separate Python ML service:
+> FieldSync is a private repo. Only sanitized reports and benchmark numbers are copied into this one.
+
+## 🏗️ Audio ML Search Architecture
 
 ```text
-Python + FastAPI Backend
-      ├── wwwroot/  → React static build
-      └── API       → Application backend
-             ↓
-      Python + FastAPI ML Service
-             └── PyTorch + Librosa → ONNX export
-                     ↓
-             Browser: ONNX Runtime Web + WebGPU (edge inference)
+React UI (upload · play · results)
+        ↓
+Python + FastAPI service
+  ├── Ingestion → ffmpeg → features / embeddings
+  ├── Search    → FAISS · pgvector
+  └── PostgreSQL + pgvector
+        ↓
+Observability: OpenTelemetry → Jaeger · Prometheus · Grafana
 ```
+
+## 🧰 Tech Stack
+
+| Layer | FieldSync | Audio ML Search |
+|---|---|---|
+| **Language** | C# (.NET 10), SQL | Python 3.12+, SQL |
+| **Backend** | ASP.NET Core, EF Core | FastAPI |
+| **Database** | PostgreSQL | PostgreSQL + pgvector |
+| **Libraries** | Serilog, Polly | librosa, torchaudio, PyTorch, scikit-learn, FAISS, ONNX Runtime |
+| **Testing** | xUnit, Testcontainers, BenchmarkDotNet | pytest |
+| **Load & failure** | k6, Toxiproxy | k6, Toxiproxy |
+| **Observability** | OpenTelemetry, Jaeger, Prometheus, Grafana | same |
+| **Infrastructure** | WSL2, Docker Compose, GitHub Actions | same |
 
 ## 🗺️ 24-Month Journey
 
-| Period | Focus |
-|---|---|
-| **Prerequisites** | HTML, CSS, JavaScript, browser-based programming, Python & FastAPI foundations |
-| **Year 3 – Semester 1** (Months 1–6) | Frontend Architecture & Audio Graph Management |
-| **Year 3 – Semester 2** (Months 7–12) | Mathematical DSP & Machine Learning Foundations |
-| **Year 4 – Semester 1** (Months 13–18) | Deep Learning & Native C++/JUCE Plugins — Capstone Part 1 |
-| **Year 4 – Semester 2** (Months 19–24) | WebAssembly, WAMs & Edge Integration — Capstone Part 2 |
+| Period | Focus | Status |
+|---|---|---|
+| **Phase 1 · Months 1–6** (Oct 2026 – Mar 2027) | Foundations: databases, concurrency, testing, failure handling. FieldSync reliability results and an audio-similarity baseline. | 🚧 **Current:** FieldSync Increment 1 in development |
+| **Phase 2 · Months 7–12** (Apr – Sep 2027) | Audio ML Search v1: audio processing, feature baseline vs learned embeddings, vector search, first complete app. | ⏳ Upcoming |
+| **Phase 3 · Months 13–18** (Oct 2027 – Mar 2028) | Measurement & optimization: retrieval quality, latency, observability, failure tests, inference benchmarks. | ⏳ Upcoming |
+| **Phase 4 · Months 19–24** (Apr – Sep 2028) | Capstone research, reproducible experiments, report, portfolio, job applications. | ⏳ Upcoming |
 
-📖 **Detailed roadmap:** [`ROADMAP-2.md`](./ROADMAP-2.md)  
-🧱 **Prerequisites:** [`ROADMAP-PREREQUISITES.md`](./ROADMAP-PREREQUISITES.md)
+## ⏱️ Weekly Rhythm
+
+**Mon** Theory A (systems, DB, reliability) · **Tue** Build FieldSync · **Wed** Theory B (audio, ML) · **Thu** Build Audio ML Search · **Fri** University work · **Sat** Lectures, then off · **Sun** Lectures, then weekly review
 
 ## 📁 Repository
 
 ```text
-docs/        → Research, ADRs, logs & thesis
-labs/        → Learning experiments
-capstone/    → Main application
-benchmarks/  → Performance experiments
-books/       → Study references
-roadmaps/    → Planning material
+docs/              → ADRs, learning log, experiment log, reports
+labs/              → small learning experiments (DSP, SQL, concurrency)
+audio-ml-search/   → main personal project
+benchmarks/        → load tests, latency and quality results
+research/          → capstone protocol, experiments, report
+books/             → study references
+roadmaps/          → planning material
 ```
 
-## 🚦 Milestones
+## 🚦 Phase Gates
 
-**M0** — Prerequisites Complete · **M1** — Semester 1 Milestone (Y3S1) · **M2** — Semester 2 Milestone (Y3S2) · **M3** — Capstone Part 1 Milestone (Y4S1) · **M4** — Final Capstone Milestone (Y4S2) · **🎓 Final** — Thesis & Defense
+- [ ] **Gate 1 · Month 6:** FieldSync Reliability Report v1 + audio baseline results
+- [ ] **Gate 2 · Month 12:** Audio ML Search v1.0 runs from a clean clone + Evaluation Report v1
+- [ ] **Gate 3 · Month 18:** Engineering Report v1 (observability, load tests, optimizations, failure tests)
+- [ ] **Gate 4 · Month 24:** Capstone submitted · portfolio live · 10 applications sent
 
 ## 📊 Current Progress
 
-**Month:** 0 / 24  
-**Stage:** Prerequisites  
-**Progress:** not yet started — see `ROADMAP-PREREQUISITES.md`  
-**Next Milestone:** M0 — Prerequisites Complete
+**Month:** 1 / 24  
+**Stage:** Phase 1 · Foundations  
+**Currently developing:** 🚧 FieldSync · Increment 1 (scanner inbound/outbound, issues and jobs, scanner swap, role-based access, offline accessibility)  
+**Current focus:** Measure before you optimize  
+**Next Gate:** Gate 1 · Month 6
 
 > **Build it. Measure it. Understand it. Defend it.**
