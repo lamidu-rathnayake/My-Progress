@@ -1,12 +1,14 @@
 # Prerequisites: Python & FastAPI
 
+> Historical plan: retained for context. Audio ML, music-focused DSP and browser DAW interests are now optional or previously planned; the current direction is Systems Programming & Intelligent Machine Engineering. Dates, workload, assumptions and completion targets are superseded by the [current roadmap](../ROADMAP.md) and [schedule](../SCHEDULE.md). Resource links are historical references and have not been reverified.
+
 > **Scope rule:** This covers only what the 24-month roadmap assumes but does not teach. You already work in C# and SQL, so Python should take about 2–3 weeks of Monday and Wednesday evenings.
 
 **Timing:** Python and NumPy before Month 1's spectrogram notebook (week 2). FastAPI before Month 10.
 
 ---
 
-# Part 1: Python (needed by Month 1, week 2)
+## Part 1: Python (needed by Month 1, week 2)
 
 - [ ] Core syntax: variables, types, functions, control flow, comprehensions
 - [ ] Modules and packages: organizing and importing code
@@ -21,14 +23,14 @@
 
 ---
 
-# Part 2: Testing in Python (needed by Month 10)
+## Part 2: Testing in Python (needed by Month 10)
 
 - [ ] pytest basics: test functions, assertions, fixtures
 - [ ] Running tests in GitHub Actions
 
 ---
 
-# Part 3: FastAPI (needed by Month 10)
+## Part 3: FastAPI (needed by Month 10)
 
 - [ ] Pydantic models: request and response validation
 - [ ] Path operations: `@app.get`, `@app.post`
@@ -45,7 +47,7 @@
 
 ---
 
-# Prerequisite Milestone
+## Prerequisite Milestone
 
 - [ ] Comfortable writing Python functions, classes, and type hints
 - [ ] Comfortable with NumPy arrays and plotting
@@ -54,7 +56,7 @@
 
 ---
 
-# Resources
+## Resources
 
 | Topic | Resource |
 |---|---|

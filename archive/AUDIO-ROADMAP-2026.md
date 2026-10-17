@@ -1,5 +1,7 @@
 # Audio & Applied Machine Learning Engineering — 24-Month Roadmap
 
+> Historical plan: retained for context. Audio ML, music-focused DSP and browser DAW interests are now optional or previously planned; the current direction is Systems Programming & Intelligent Machine Engineering. Dates, workload, assumptions and completion targets are superseded by the [current roadmap](../ROADMAP.md) and [schedule](../SCHEDULE.md). Resource links are historical references and have not been reverified.
+
 > **Timeline:** October 2026 – September 2028  
 > **Career identity:** Applied ML Engineer, specializing in audio and music information retrieval  
 > **Primary outcome:** one dependable audio-similarity application, supported by rigorous evaluation and a university research capstone.
@@ -86,7 +88,7 @@ Keep the stack small. Add a tool only when a concrete project requirement or exp
 
 Every month has a deliverable. If a `Done when` condition is not met, extend the milestone instead of rushing forward. University exams and required coursework take priority; adjust the calendar when necessary.
 
-# Phase 1 — Foundations and a credible baseline
+## Phase 1 — Foundations and a credible baseline
 
 ## Month 1 — October 2026: Python and audio inspection
 
@@ -136,7 +138,7 @@ Every month has a deliverable. If a `Done when` condition is not met, extend the
 - [ ] Write an initial baseline report and identify the main unanswered question.
 - [ ] **Gate 1:** reproducible DSP/feature baseline, evaluation query set, automated tests, and a short report.
 
-# Phase 2 — Applied ML and Audio ML Search v1
+## Phase 2 — Applied ML and Audio ML Search v1
 
 ## Month 7 — April 2027: PyTorch foundations
 
@@ -186,7 +188,7 @@ Every month has a deliverable. If a `Done when` condition is not met, extend the
 - [ ] Record a short demo and tag `v1.0`.
 - [ ] **Gate 2:** a reproducible end-to-end application with feature-vs-embedding evaluation and search benchmark.
 
-# Phase 3 — ML system quality and optimization
+## Phase 3 — ML system quality and optimization
 
 ## Month 13 — October 2027: Experimental quality
 
@@ -232,7 +234,7 @@ Every month has a deliverable. If a `Done when` condition is not met, extend the
 - [ ] Avoid replicas, sharding or complex infrastructure unless the measured research question requires them.
 - [ ] **Gate 3:** ML engineering report with quality, latency/resource results, failure tests and justified optimizations.
 
-# Phase 4 — Research, capstone and career preparation
+## Phase 4 — Research, capstone and career preparation
 
 ## Month 19 — April 2028: Research protocol
 

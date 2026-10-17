@@ -1,10 +1,4 @@
-# Progress
-
-## Current phase — pre-semester preparation
-
-The university semester has not started yet. The start date and actual timetable are unconfirmed. Current work focuses on mathematics foundations and preparation; semester coursework and assessments will be tracked when announced.
-
-## 15 October 2026 — Planning and materials organized
+# 15 October 2026 — Planning and materials organized
 
 ### Planning completed
 
@@ -32,42 +26,33 @@ Checked items above represent preparation and materials received, not completed 
 
 ## Current learning focus
 
-Rebuild algebra, revising arithmetic where the diagnostic identifies gaps. Begin introductory statistics and basic probability when their immediate prerequisites are comfortable; there is no need to finish calculus or the full ML mathematics path first.
+Follow the current statistics video series for understanding, then reconcile topics with university notes and exam requirements. Review a small algebra gap alongside statistics when necessary.
 
 ### Next study actions
 
-- [ ] Attempt a short arithmetic/algebra diagnostic and record errors by concept.
-- [ ] Choose the first weak prerequisite and complete one 25-40 minute practice session.
-- [ ] Review statistical terminology, attempt Problem Sheet 00 independently, then check Answers 00.
-- [ ] Record attempted questions, corrections, and what can be explained without notes.
-- [ ] Review actual time and energy after the first week and adjust the study routine.
+- [ ] Study populations, samples, variables and data types; record the video title/link in a topic note.
+- [ ] Explain the terms in your own words and solve a few simple classification questions.
+- [ ] Compare with Introduction to Statistics and attempt Problem Sheet 00 if available, then check Answers 00.
+- [ ] Record corrections and what can be explained without notes; review only the immediate prerequisite gaps.
+- [ ] Review actual energy and capacity after the week using [Schedule](SCHEDULE.md).
 
 ### Information still needed
 
-- [ ] Confirm the repeat-exam date, eligibility, registration deadline, and official syllabus. Around March 2027 remains tentative.
-- [ ] Obtain page 1 or equivalent official instructions for the previous paper to establish its date, duration, answer-choice rules, and permitted aids.
-- [ ] Verify the unclear union/intersection symbol in previous-paper Q2(d) before using it as a practice question.
-- [ ] Record the upcoming semester start date, timetable, and module registrations when confirmed.
-- [ ] Add assessment deadlines when announced and revise study priorities accordingly.
+- [ ] Confirm the examination result and whether a repeat is required; March 2027 is tentative.
+- [ ] Verify the official syllabus, Lecture 05 availability and the added normal/CLT bridge.
+- [ ] Obtain page 1 or official instructions for the previous paper: date, duration, answer-choice rules and permitted aids.
+- [ ] Verify the unclear union/intersection symbol in previous-paper Q2(d).
+- [ ] Confirm semester start, timetable, registrations and assessment deadlines in [University](UNIVERSITY.md).
 
-## Workload and projects
+## Learning status
 
-University preparation, mathematics, and repeat-exam preparation take priority. FieldSync and the planned Intelligent Audio ML System use remaining capacity as described in [PROJECTS.md](PROJECTS.md); no new project progress is claimed here. Follow [SCHEDULE.md](SCHEDULE.md) and protect sleep and recovery.
+**Not Started → Learning → Practicing → Reviewed → Confident**
 
-## Entry template
+| Status | Evidence |
+|---|---|
+| Not Started | No study attempt recorded |
+| Learning | Can begin explaining the concept; questions remain |
+| Practicing | Attempting independent problems and correcting errors |
+| Reviewed | Revisited the topic without relying on the worked solution |
+| Confident | Can explain and apply it independently to a representative new problem |
 
-Copy only when there is something to record:
-
-```text
-Date:
-Focus / intended outcome:
-Completed work:
-Evidence (exercise, note, lab path, or external project commit):
-What I can explain or do independently:
-Errors / blockers:
-Time and energy observed:
-Next smallest action:
-Planning changes, if any:
-```
-
-Keep detailed technical notes beside the relevant small lab or in its project repository. Link here rather than duplicating them.

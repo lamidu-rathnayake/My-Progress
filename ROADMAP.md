@@ -1,40 +1,72 @@
 # Roadmap
 
-Updated: 15 October 2026. Milestones are readiness-based; no graduation or capstone dates are assumed.
+Direction: **Systems Programming & Intelligent Machine Engineering**. Planning horizon: **October 2026–September 2028**, broadly aligned with Years 3 and 4. These are adjustable windows, not confirmed semesters or delivery deadlines. This direction builds on existing learning; no completed work needs restarting.
 
-## 1. Pre-semester preparation and foundations — current focus
+Robotics, embedded systems and industrial automation are possible future specializations, not selected destinations. Build common foundations, then use small experiments to decide what merits deeper study.
 
-- The university semester has not started yet. Record the start date and timetable in UNIVERSITY.md when confirmed; add assessments when announced.
-- Start the algebra diagnostic and correction cycle in MATHEMATICS.md.
-- Obtain the Probability and Statistics syllabus, repeat-exam eligibility details, and available past papers.
-- If capacity remains, practise Python functions, modules, file handling, and small tests. Introduce Linux command-line basics through these exercises.
-- Ready to expand when: a sustainable routine is demonstrated and prerequisite gaps are recorded. Reassess capacity when the semester starts and prioritize announced assessments.
+## Priorities
 
-## 2. Numerical computing and classical ML
+| Priority | Work |
+|---|---|
+| P0 | University assessments, Probability & Statistics, immediate mathematical prerequisites and required assignments |
+| P1 | Mathematics, Python, modern C++, Linux, software engineering and data structures and algorithms (DSA) |
+| P2 | FieldSync commitments and small practical systems exercises |
+| P3 | Optional exploration of electronics, embedded systems, sensors, control, robotics and applied AI |
 
-- Learn vectors, matrices, probability, descriptive statistics, and basic derivatives before dependent ML topics.
-- Practise NumPy shapes and operations, then SciPy and scikit-learn.
-- Complete one small classification or regression lab with a baseline, appropriate data split, metric, and error analysis.
-- Done when: the lab can be rerun and the preprocessing, leakage risks, and result can be explained independently.
+[Mathematics](MATHEMATICS.md) owns the detailed mathematics sequence; [Schedule](SCHEDULE.md) determines weekly capacity. Choose one small independent learning outcome after P0 needs are covered. Extend phases instead of compressing unfinished work into late nights.
 
-## 3. Audio and intelligent systems
+## Phase 1 — October 2026–March 2027: academic and programming foundations
 
-- Learn sampling, amplitude, frequency, trigonometry, and complex-number foundations before Fourier transforms and spectrograms.
-- Define one small audio problem and build an interpretable DSP or classical ML baseline.
-- Learn PyTorch tensors, gradients, and training loops before deep-learning experiments.
-- Done when: a reproducible baseline and one justified model comparison use the same evaluation procedure.
+Core work, paced around the Year 3 transition:
 
-## 4. Systems and deployment
+- [ ] Follow the primary statistics track and lightweight foundations track; confirm the exam result and any repeat requirements.
+- [ ] Develop Python syntax, functions, modules, exceptions, file handling, virtual environments and small tests, starting from demonstrated gaps.
+- [ ] Practise Linux command-line tools, files, permissions, Git and reproducible development workflows through those exercises.
+- [ ] Introduce algorithmic complexity, basic data structures, searching and sorting once basic programming is comfortable.
 
-- Develop C++ fundamentals, memory/resource management, and debugging through small exercises.
-- Measure audio processing time and memory before attempting real-time processing.
-- Introduce ONNX Runtime and Edge AI only when a working model and target device or deployment constraint exist.
-- Done when: a repeatable benchmark reports correctness, quality, latency, and resource use on specified hardware.
+Use existing HTML/CSS labs to refresh web skills when university work or FieldSync calls for them. JavaScript, TypeScript, browser asynchronous programming and React remain useful supporting skills; they do not form a separate mandatory specialization track.
 
-## 5. Capstone alignment
+Milestone: explain and independently modify a small program, run it reproducibly and record practice evidence. Statistics remains the main independent study subject until the examination situation is resolved; March is a review point, not a confirmed repeat date.
 
-- Discuss an audio/intelligent-systems research question with a supervisor when the university process opens.
-- Confirm scope, data access, evaluation, and submission requirements before committing dates.
-- Done when: the university-approved project has reproducible experiments and documented limitations.
+## Phase 2 — April–September 2027: systems foundations
 
-Use coursework to satisfy learning milestones where practical. During assessment or repeat-exam preparation, pause optional milestones rather than compressing them into late nights. Resource selection follows the current learning gap; prefer one free primary resource at a time.
+Core work, continuing at a sustainable pace:
+
+- [ ] Build intermediate Python skills, including modules, data handling, debugging and testable design; use NumPy when numerical exercises require it.
+- [ ] Learn C++ compilation, types, functions, references, pointers, object lifetimes and memory/resource ownership; then STL containers and algorithms, RAII and modern C++ design.
+- [ ] Practise CMake, testing and debugger use in one small C++ lab rather than creating a project for every tool.
+- [ ] Continue DSA and learn operating-system concepts: processes, memory, files and I/O. Introduce concurrency after ownership and debugging are comfortable.
+- [ ] Apply software architecture, version control, testing and quality practices through coursework or FieldSync where suitable.
+
+Milestone: build, test and debug a small C++ program on Linux, explain its data structures and resource ownership, and measure one relevant performance characteristic. No fixed performance target is assumed.
+
+## Phase 3 — October 2027–March 2028: limited exploration
+
+Keep strengthening core foundations. When capacity permits, choose **one** short exploration at a time; the examples below are alternatives, not a completion checklist or a requirement to buy hardware.
+
+| Area | Prerequisites / starting point | Possible small exploration |
+|---|---|---|
+| Electronics and sensors | Units, algebra; voltage, current, resistance, power and basic circuit reasoning | Simulate a simple circuit or inspect recorded sensor readings and explain measurement limits |
+| Embedded systems | Basic electronics, C++ and digital/binary concepts | Explore microcontroller I/O, sampling and timing with a simulator or available hardware |
+| Control systems | Functions, calculus, linear algebra; basic differential equations as needed | Simulate a simple dynamic system and compare open-loop with feedback behavior |
+| Robotics | Vectors, coordinate frames and basic mechanics; sensors/control for dependent tasks | Explore a small kinematics or sensor-based simulation |
+| Applied AI | Python, statistics and linear algebra; calculus/optimization for gradient-based methods | Evaluate a small classification/regression baseline with appropriate splits, metrics and error analysis |
+
+The [available hardware inventory](PROJECTS.md) includes an Arduino Uno, sensors and motor-control hardware with details still to confirm. Use existing equipment where appropriate. A brief introductory lab may happen earlier if its prerequisites and spare capacity are available; it does not displace statistics or create another weekly commitment.
+
+Milestone for a chosen exploration: document what it does, its prerequisites, what was learned, limitations and whether to continue. A simulation is sufficient. Pausing or rejecting an area is a valid outcome; exploring one does not establish a final specialization.
+
+## Phase 4 — April–September 2028: consolidate and choose a next direction
+
+- [ ] Review evidence from coursework, systems exercises and any exploration; identify which area merits further study, or keep the direction broad if evidence is insufficient.
+- [ ] Select one manageable integration or research question only when capacity and university requirements justify it. A software-only systems project remains valid.
+- [ ] Define correctness checks and repeatable measurements before optimization; report latency, memory, reliability or model quality only where relevant and actually measured.
+- [ ] Prepare a reproducible demonstration and technical report; confirm supervisor approval, capstone scope and industrial-training requirements before setting academic deadlines.
+
+Milestone: another developer can reproduce the chosen work and understand its trade-offs. No robotics platform, embedded product, industrial automation system or completed capstone is promised by September 2028.
+
+## Optional and previously planned interests
+
+Audio ML, music-focused DSP, audio retrieval, Web Audio/AudioWorklet and browser DAW development are retained in [Projects](PROJECTS.md) and the [earlier audio roadmap](archive/AUDIO-ROADMAP-2026.md) as optional history. They are not required milestones. Existing audio-themed web exercises remain useful programming practice.
+
+Advanced real-time systems, efficient inference and Edge AI can be explored later if an actual application needs them. Prefer one primary resource and one small lab at a time; use coursework to meet milestones and pause optional work during assessment peaks.

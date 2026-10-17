@@ -1,25 +1,59 @@
 # Projects
 
-## FieldSync — existing
+This is a project index, not an implementation repository. Status reflects supplied context, not verified completion, deployment or metrics. University assessments and statistics take available capacity first; choose one small discretionary task at a time.
 
-Work-adjacent software engineering project. Its current implementation, repository URL, and obligations have not been supplied. Keep its substantial code and documentation in its own repository.
+## FieldSync — ongoing, separate engineering project
 
-Use it to maintain supporting engineering skills and connect relevant architecture/testing coursework where appropriate. Limit discretionary development during academic peaks; record any actual work commitments before scheduling them. Do not copy banking data, credentials, or employer-confidential material into this journal.
+An offline-first enterprise application focused on reliability, synchronization, backend architecture and operational engineering. Main technologies: ASP.NET Core, React, TypeScript, PostgreSQL, Docker and offline PWA patterns.
 
-## Intelligent Audio ML System — planned
+Use relevant architecture, methods and quality-assurance coursework to deepen understanding where course rules permit. FieldSync supports general engineering skills alongside Systems Programming & Intelligent Machine Engineering. Its implementation stage and obligations have not been verified; keep substantial code and documentation in its own repository.
 
-Specialization project combining audio technology and intelligent systems. Keep it in a separate Git repository when implementation begins.
+Repository: To be linked
 
-Audio similarity/search from the earlier plan is a candidate scope, not a confirmed requirement. First define one problem, a small legally usable dataset, a baseline, and an evaluation criterion. Progress from DSP/classical methods to PyTorch, then consider C++ or ONNX/edge deployment only when prerequisites and measurements justify them.
+## Audio ML Flagship — previously planned, optional
 
-Next outcome: a short problem statement when academic capacity permits; no fixed delivery date.
+A producer-oriented sample and loop similarity system, continuing the earlier Intelligent Audio ML System direction. Its purpose is to demonstrate engineering and evaluation quality.
 
-## Final-year capstone — intended direction
+After programming and mathematics prerequisites, begin with Python audio analysis, feature extraction and an exact similarity baseline. Then investigate audio embeddings, PostgreSQL/pgvector, retrieval evaluation, efficient inference and a small browser audio preview. Define a legally usable dataset, relevance judgments and evaluation procedure before model comparisons. No implementation or deployment is claimed.
 
-Combine audio technology and intelligent systems, subject to supervisor approval and university requirements. It may build on the audio project if permitted. Decide repository boundaries when the approved scope is known; link shared work instead of maintaining duplicate implementations.
+No active milestone is assigned. If this optional interest is resumed, first write a short problem statement and evaluation plan in the dedicated project repository.
+
+Repository: To be linked
+
+## Audio research — previously planned, optional
+
+The earlier proposal was to choose one question about audio embeddings, retrieval effectiveness, model efficiency, latency, memory, quantization or domain-specific evaluation. If resumed, it could build on the flagship's data and evaluation infrastructure. This is not the current required research direction. Confirm supervisor approval, data access and academic requirements before setting scope or deadlines.
+
+Repository: To be linked
+
+## Web-Native Audio Production Environment — previously planned, optional
+
+Previously proposed browser DAW/audio systems and capstone direction; retained for history, not an active capstone commitment. Explore Web Audio API, audio graphs, DSP, real-time processing and AudioWorklet after browser and mathematics foundations. Consider C++/WebAssembly components only where technical measurements justify them.
+
+A full production environment is not assumed feasible within the two-year horizon. Agree on a small capstone slice and reuse research/flagship work where university rules allow. Nothing is assumed completed or deployed.
+
+Repository: To be linked
+
+## Systems and intelligent machines — exploration, no flagship selected
+
+Future small labs may explore electronics, embedded systems, sensors, robotics, control systems or applied AI after the relevant foundations. Choose one bounded simulation or experiment at a time using the [roadmap](ROADMAP.md). Do not create a large project or purchase hardware merely to fill this index.
+
+No final specialization, new flagship, research topic or capstone domain is selected. Use evidence from these explorations and confirmed university requirements to choose later. FieldSync remains ongoing independently of that decision.
+
+## Available hardware
+
+User-reported equipment, recorded 18 October 2026:
+
+- Arduino Uno board; exact revision not yet recorded.
+- Several sensors; models and quantities not yet recorded.
+- One motor controller that supports four motors; exact model not yet recorded.
+
+This equipment can support optional small learning labs; ownership does not imply completed embedded-systems study or a decision to specialize in robotics. Record component labels and relevant documentation before choosing a sensor or motor exercise. Motor availability, power supplies and electrical compatibility have not been established.
+
+When academic capacity permits, a first bounded outcome could be identifying the components and documenting one simple board or sensor experiment. Keep actual observations and code in a small lab; do not mark it completed until attempted.
 
 ## Repository boundaries
 
-My-Progress holds the plan, progress evidence, small notes, and small practical labs. Substantial applications and research implementations live in separate repositories. Store datasets, binaries, model weights, and generated bulk outputs elsewhere; retain only access instructions and relevant provenance links here.
+My-Progress holds plans, actual learning evidence, topic notes and small labs. Keep large applications, research implementations, datasets, binaries, model weights and bulk generated outputs elsewhere. Link shared work rather than maintaining duplicate implementations.
 
-Project repository URLs and current completion status are pending user input. Do not invent either.
+Do not publish proprietary employer or banking information, credentials, production configurations or real customer data. Use synthetic examples. Add external project links only after their destinations are verified.

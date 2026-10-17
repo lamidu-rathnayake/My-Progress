@@ -1,12 +1,66 @@
 # Mathematics
 
-## Current focus and how to use this sequence
+## Current focus
 
-The semester has not started yet. Start by rebuilding algebra, checking arithmetic prerequisites as needed. This is a learning sequence, not a fixed timetable or a claim that any topic is completed.
+**Track A: Probability & Statistics is the primary subject. Track B: foundations is lighter parallel learning.** The recent examination result is unknown. A repeat around March 2027 is possible, not confirmed. Previously studied vectors, linear algebra and calculus need rebuilding; prior exposure does not establish confidence.
 
-Begin with a short untimed diagnostic covering signed numbers, fractions, powers, simplifying expressions, linear equations, rearranging formulas, and reading graphs. Record specific gaps in [PROGRESS.md](PROGRESS.md). Skip extended revision of topics you can already explain and solve independently.
+Use the current YouTube series for conceptual understanding, write short notes and solve simple problems, then compare each topic against university lecture notes, fill gaps and progress to examination-level practice. The series title/link has not been supplied; record it in the first actual study note.
 
-Complete the shared foundations in Sections 1–3 first. Then prioritize the Probability and Statistics path for the possible repeat exam. Linear Algebra can follow or run alongside that path when the university timetable requires it. Calculus and DSP are later branches, not prerequisites for starting all statistics topics.
+## Track A — Probability & Statistics
+
+This order is reconstructed from SMA2306 study guides, **not independently verified against the official syllabus**. The latest clarification says Lecture 05 was missing from previously supplied material and the normal distribution/CLT bridge included added content. Older journal entries claimed Lecture 05 was available; retain that history but do not rely on it as verified evidence. Check the official syllabus and original materials before treating any item as assessed.
+
+The detailed Sections 4.1–4.12 below preserve the existing practice checklist and source inventory. All study boxes remain unchecked.
+
+1. [in progress] **Introduction to Statistics:** populations, samples, variables, data types, descriptive/inferential statistics (4.1).
+2. [in progress] **Introduction to Probability:** sample spaces, events, diagrams and event notation (4.2).
+3. [ ] **Probability Rules:** addition, complements, independence, conditional probability and Bayes' theorem (4.3).
+4. [ ] **Random Variables:** discrete/continuous variables, PMF, CDF, expected value, variance and standard deviation (4.4).
+5. [ ] **Probability Distributions:** binomial and Poisson assumptions and calculations (4.5).
+6. [ ] **Normal Distribution:** density, Z-scores and normal probabilities; sampling distributions and Central Limit Theorem bridge (4.6–4.7). **Verify syllabus coverage and recover Lecture 05.**
+7. [ ] **Statistical Estimation:** estimators, estimates, standard error and sample size (4.7–4.9).
+8. [ ] **Confidence Intervals:** means, differences of means and proportions, with assumptions (4.8–4.9).
+9. [ ] **Hypothesis Testing:** hypotheses, statistical tests, p-values and interpretation (4.10).
+10. [ ] **Regression and Correlation:** scatter plots, least squares, correlation and R-squared (4.11).
+
+Before past papers, check the current assessed coverage. The retained previous-paper mapping in Section 9 is revision evidence, not proof of the next exam's syllabus or of personal performance.
+
+## Track B — Mathematical Foundations
+
+Use brief sessions for one immediate gap at a time. Do not finish all foundations before starting statistics.
+
+1. [ ] Arithmetic refresh where necessary (Section 1).
+2. [ ] Algebra fundamentals, especially substitution and rearranging formulas (Section 2).
+3. [ ] Functions and graphs (Section 3).
+4. [ ] Essential trigonometry (7.1).
+5. [ ] Basic vectors (5.1).
+6. [ ] Basic matrices (5.2).
+7. [ ] Elementary calculus when algebra/functions are sufficiently strong (6.1–6.3).
+
+An optional short diagnostic can identify gaps in fractions, signed numbers, powers, equations and graph reading. Revise only what blocks current work; the detailed reference checklists below are a menu, not an immediate workload.
+
+## Future foundations and optional applications
+
+After the examination priority is resolved, increase emphasis gradually on linear algebra (Section 5), differential and integral calculus (6.1–6.3), multivariable calculus (6.4), and optimization (6.5) when relevant. Continue discrete mathematics, logic and combinatorial reasoning alongside university work and DSA. Numerical methods can follow: floating-point error, conditioning, numerical differentiation/integration and stable linear-system solutions.
+
+These foundations support **Systems Programming & Intelligent Machine Engineering** without committing to a final domain. Choose application mathematics only as coursework or a small exploration needs it:
+
+- Electronics and sensors: units, algebra, functions and basic trigonometry; complex numbers later for relevant circuit models.
+- Control systems: calculus, linear algebra and basic differential equations before dependent dynamic-system models; feedback and stability as the exploration develops.
+- Robotics: vectors, coordinate frames, transformations and basic geometry; further calculus and control only when needed.
+- Applied AI: statistics, linear algebra and evaluation; calculus and optimization before gradient-based methods.
+
+Complex numbers, signals and systems, and Fourier analysis in Section 7 remain useful optional reference material. They are not a mandatory music-DSP sequence. Continuous Fourier transforms require integration; audio-specific examples and spectrogram work are retained from the earlier optional interest. None of these branches must be mastered immediately or studied simultaneously. See the [roadmap](ROADMAP.md) for exploration boundaries.
+
+## Learning method and completion
+
+**Concept → Notes → Worked Example → Independent Practice → Review.** A topic is ready to move forward when you can explain the idea, choose an appropriate method, solve a representative new problem without a worked solution and revisit errors successfully. Video completion alone does not meet this standard.
+
+Use the [study-note template](templates/study-note.md) and [notes guide](notes/README.md). Record the topic, source, own explanation, definitions, formulas, worked example, independent question and attempt, mistakes/questions, a relevant application and review status. Add actual evidence to [Progress](PROGRESS.md); use [Schedule](SCHEDULE.md) to limit the workload.
+
+## Detailed reference checklists
+
+The existing section numbers are retained to preserve the previous-paper mapping. Read Track A first; numerical section order below does not imply that all foundations must be completed first.
 
 ## 1. Arithmetic prerequisites
 
@@ -95,18 +149,18 @@ Complete the shared foundations in Sections 1–3 first. Then prioritize the Pro
 - [ ] Sequence notation and finite sums using sigma notation.
 - [ ] Read indexed quantities such as x_i, a prerequisite for statistical formulas and vectors.
 
-## 4. Probability and Statistics - course-aligned repeat path
+## 4. Probability and Statistics — provisional study-guide path
 
-Based on the supplied SMA2306 lecture notes and Problem Sheets 00-07. These materials establish available study coverage, not the confirmed repeat-exam syllabus. All completion boxes remain unchecked, including topics whose lecture filenames contain "done".
+Retained from the earlier SMA2306 study-guide reconstruction and Problem Sheets 00-07. Source availability and assessed coverage need verification, particularly Lecture 05. These are not an official syllabus. All completion boxes remain unchecked, including topics whose lecture filenames contain "done".
 
 Start with fractions, algebraic substitution/rearrangement, inequalities, sets, and finite sums. Do not delay introductory statistics until every advanced algebra topic is finished. Revise powers, factorials, combinations, square roots, and straight-line graphs just before their dependent topics.
 
-Source links below point to existing local files outside this repository and will not work for other GitHub readers. No PDFs are copied into the journal.
+Source filenames below preserve the earlier inventory as plain text, not broken GitHub links. The historical local folders were `D:/Uni/academics/Probability - Repeat/Notes/` and `D:/Uni/academics/Probability - Repeat/Lab Sheets/`; availability has not been checked in this task. No PDFs are copied into the journal.
 
 ### 4.1 Statistical language and data
 
-[Introduction to Statistics.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Introduction to Statistics.pdf>)
-Practice: [Problem Sheet 00.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 00.pdf>). Check your attempt using [Answers 00.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Answers 00.pdf>) afterwards.
+`Introduction to Statistics.pdf`
+Practice: `Problem Sheet 00.pdf`. Check your attempt using `Answers 00.pdf` afterwards.
 
 - [ ] Identify elements, variables, observations, and datasets.
 - [ ] Distinguish populations, samples, parameters, and statistics.
@@ -116,8 +170,8 @@ Practice: [Problem Sheet 00.pdf](<D:/Uni/academics/Probability - Repeat/Lab Shee
 
 ### 4.2 Experiments, events, and basic probability
 
-[Lecture 01 done.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 01 done.pdf>)
-Practice: [Problem Sheet 01.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 01.pdf>).
+`Lecture 01 done.pdf`
+Practice: `Problem Sheet 01.pdf`.
 
 - [ ] List outcomes and sample spaces; identify events as sets of outcomes.
 - [ ] Draw tree and Venn diagrams.
@@ -128,8 +182,8 @@ Practice: [Problem Sheet 01.pdf](<D:/Uni/academics/Probability - Repeat/Lab Shee
 
 ### 4.3 Probability rules, conditioning, and Bayes' theorem
 
-[Lecture 02 done.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 02 done.pdf>)
-Practice: [Problem Sheet 02.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 02.pdf>).
+`Lecture 02 done.pdf`
+Practice: `Problem Sheet 02.pdf`.
 
 - [ ] Distinguish independence from mutual exclusivity.
 - [ ] Apply addition, complement, conditional probability, and multiplication rules.
@@ -139,8 +193,8 @@ Practice: [Problem Sheet 02.pdf](<D:/Uni/academics/Probability - Repeat/Lab Shee
 
 ### 4.4 Random variables, PMFs, and CDFs
 
-[Lecture 03 done.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 03 done.pdf>)
-Practice: [Problem Sheet 03.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 03.pdf>) and [Problem Sheet 04.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 04.pdf>).
+`Lecture 03 done.pdf`
+Practice: `Problem Sheet 03.pdf` and `Problem Sheet 04.pdf`.
 
 - [ ] Define a random variable and distinguish its possible values from outcomes.
 - [ ] Classify discrete and continuous random variables.
@@ -152,8 +206,8 @@ Practice: [Problem Sheet 03.pdf](<D:/Uni/academics/Probability - Repeat/Lab Shee
 
 ### 4.5 Binomial and Poisson distributions
 
-[Lecture 04 done.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 04 done.pdf>)
-Practice: [Problem Sheet 05.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 05.pdf>).
+`Lecture 04 done.pdf`
+Practice: `Problem Sheet 05.pdf`.
 
 - [ ] Review factorials, combinations, powers, and the exponential constant e.
 - [ ] Recognize binomial assumptions and identify n, p, and the success count.
@@ -164,14 +218,14 @@ Practice: [Problem Sheet 05.pdf](<D:/Uni/academics/Probability - Repeat/Lab Shee
 
 ### 4.6 Continuous probability and the normal distribution
 
-[Lecture 05.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 05.pdf>)
-Practice: [Problem Sheet 06.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 06.pdf>). Reference: [Standard Normal Distribution Table.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Standard Normal Distribution Table.pdf>).
+`Lecture 05.pdf` — historical filename only; missing from previously supplied material according to the latest clarification. Obtain and verify before relying on it.
+Practice: `Problem Sheet 06.pdf`. Reference: `Standard Normal Distribution Table.pdf`.
 
 - [ ] Interpret density and interval probability as area; distinguish density from probability.
 - [ ] Explain why a single point has probability zero for a continuous distribution.
 - [ ] Interpret normal mean, standard deviation, variance, and symmetry.
 - [ ] Standardize values using Z = (X - mean) / standard deviation.
-- [ ] Read the supplied normal table as cumulative area to the LEFT of z.
+- [ ] Verify the table convention before use; the earlier notes describe cumulative area to the LEFT of z.
 - [ ] Calculate left-tail, right-tail, and between-values probabilities.
 - [ ] Complete Problem Sheet 06, sketching the required area before calculation.
 
@@ -184,26 +238,26 @@ Prerequisite support for Lectures 06-07; this is an added learning bridge, not a
 - [ ] Calculate sample means, sample variance, and sample standard deviation.
 - [ ] Distinguish a population standard deviation from a sample standard deviation.
 - [ ] Explain sampling distributions and standard error, including the mean's square-root-of-n scaling.
-- [ ] Understand why normal-population or suitable large-sample assumptions matter.
+- [ ] Explain the Central Limit Theorem and why normal-population or suitable large-sample assumptions matter; verify whether this added bridge is assessed.
 - [ ] Review confidence levels, tail areas, and degrees of freedom.
 
 ### 4.8 Point estimates and confidence intervals for one mean
 
-[Lecture 06 i.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 06 i.pdf>)
-Practice: [Problem Sheet 07.pdf](<D:/Uni/academics/Probability - Repeat/Lab Sheets/Problem Sheet 07.pdf>). Reference: [t distribution table.pdf](<D:/Uni/academics/Probability - Repeat/Notes/t distribution table.pdf>) and the normal table above.
+`Lecture 06 i.pdf`
+Practice: `Problem Sheet 07.pdf`. Reference: `t distribution table.pdf` and the normal table above.
 
 - [ ] Distinguish an estimator, an estimate, and a confidence interval.
 - [ ] Build an interval from point estimate, critical value, and standard error.
 - [ ] Use the z interval for a mean when population standard deviation is known, checking assumptions.
 - [ ] Use the t interval for a mean when population standard deviation is estimated, checking assumptions.
-- [ ] Read the supplied t table using RIGHT-tail area and the appropriate degrees of freedom.
+- [ ] Verify the t table convention before use; the earlier notes describe RIGHT-tail area with the appropriate degrees of freedom.
 - [ ] Use alpha/2 in each tail for a two-sided confidence interval.
 - [ ] Complete Problem Sheet 07 and explain the method chosen.
 - [ ] Determine the minimum sample size for estimating a mean with a specified margin of error and known/planning population standard deviation; round up (previous paper Q3c).
 
 ### 4.9 Two-population means and population proportions
 
-[Lecture 06 ii.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 06 ii.pdf>)
+`Lecture 06 ii.pdf`
 Practice: the worked examples and exercises inside this lecture; no separate matching problem sheet was supplied.
 
 - [ ] Estimate the difference between two independent population means.
@@ -215,7 +269,7 @@ Practice: the worked examples and exercises inside this lecture; no separate mat
 
 ### 4.10 Hypothesis testing
 
-[Lecture 07.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 07.pdf>)
+`Lecture 07.pdf`
 Practice: the worked examples and exercises inside this lecture; no separate matching problem sheet was supplied.
 
 - [ ] State null and alternative hypotheses using population parameters.
@@ -231,7 +285,7 @@ Practice: the worked examples and exercises inside this lecture; no separate mat
 
 ### 4.11 Simple linear regression and correlation
 
-[Lecture 08.pdf](<D:/Uni/academics/Probability - Repeat/Notes/Lecture 08.pdf>)
+`Lecture 08.pdf`
 Practice: the examples inside this lecture; no separate matching problem sheet was supplied.
 
 - [ ] Review straight-line equations, slope, intercept, and sums of products.
@@ -254,7 +308,7 @@ Keep these in the long-term plan; do not assume they are repeat-exam requirement
 - [ ] Type II errors and power in more depth; basic Type I error interpretation is already required by the previous paper in Section 4.10.
 - [ ] Additional tests such as chi-square or ANOVA only if the syllabus or a later learning goal requires them.
 
-## 5. Linear Algebra — university and ML path
+## 5. Linear Algebra — university and engineering foundations
 
 Prerequisites: Sections 1–3, especially simultaneous equations and function notation. This path does not require completing all of Section 4.
 
@@ -291,7 +345,7 @@ Prerequisites: Sections 1–3, especially simultaneous equations and function no
 - [ ] Symmetric matrices, then singular value decomposition at the required depth.
 - [ ] Study PCA after covariance from Section 4.12 and the relevant decomposition foundations.
 
-## 6. Calculus and optimization — ML path
+## 6. Calculus and optimization — engineering foundations
 
 Prerequisites: algebra and functions from Sections 1–3. Use vectors from Section 5 before multivariable calculus. Learn Section 7.1 before trigonometric differentiation or integration.
 
@@ -322,9 +376,9 @@ Prerequisites: algebra and functions from Sections 1–3. Use vectors from Secti
 - [ ] Connect least squares to gradients; understand scaling and numerical stability.
 - [ ] Study backpropagation after the chain rule and matrix/vector operations are comfortable.
 
-## 7. Trigonometry, complex numbers, and signals — DSP path
+## 7. Trigonometry, complex numbers, and signals — optional applications
 
-Prerequisites: Sections 1–3. This branch can begin independently of advanced statistics and calculus; continuous-time Fourier analysis later needs integration.
+Essential trigonometry still belongs to Track B. The extended signals/Fourier checklist is retained for optional applications; audio examples are historical interests, not requirements. Prerequisites: Sections 1–3. This branch can begin independently of advanced statistics and calculus; continuous-time Fourier analysis later needs integration.
 
 ### 7.1 Angles and trigonometric functions
 
@@ -355,21 +409,21 @@ Prerequisites: Sections 1–3. This branch can begin independently of advanced s
 
 For each session: attempt problems first, review one gap, retry without notes, and record the outcome. Use Python to check intuition after working through the mathematics by hand.
 
-Suggested readiness check per topic: solve at least 8 of 10 mixed questions unaided on two separate occasions, explain the steps, and correct remaining errors. This is a planning guide, not a university pass criterion. For conceptual topics, also explain an example and a counterexample where appropriate.
+For a broader review when time allows, try a small mixed question set on separate occasions, explain the steps and correct errors. This is a learning check, not a score target or university pass criterion. For conceptual topics, also explain an example and a counterexample where appropriate.
 
-Use an error log: question/topic, mistaken step, correction, and next retrieval attempt. Keep one main mathematics topic active at a time unless coursework requires a second branch.
+Use an error log: question/topic, mistaken step, correction, and next retrieval attempt. Keep one main statistics topic active, with only a small parallel foundations gap unless coursework requires more.
 
-## 9. Probability and Statistics repeat planning
+## 9. Probability and Statistics examination planning
 
 ### Previous paper supplied on 15 October 2026
 
 The user identifies this as the last paper they sat. The images show pages 2-4 and Questions 1-5, each labeled 20 marks, with each subpart labeled 5 marks. Page 1 was not supplied, so the paper date, duration, answer-choice rules, and permitted aids are unknown. The image filenames are receipt/source labels, not evidence of the exam date. This paper informs revision priorities but does not confirm the next exam's coverage.
 
-Local source images (kept outside this repository):
+Historical source image labels (outside this repository; availability not reverified):
 
-- [Page 2: Q1 and Q2a-c](<C:/Users/Lamidu Rathnayake/Downloads/WhatsApp Image 2026-10-15 at 10.12.58 PM.jpeg>).
-- [Page 3: Q2d, Q3, and Q4a-b](<C:/Users/Lamidu Rathnayake/Downloads/WhatsApp Image 2026-10-15 at 10.12.57 PM.jpeg>).
-- [Page 4: Q4c-d and Q5](<C:/Users/Lamidu Rathnayake/Downloads/WhatsApp Image 2026-10-15 at 10.12.57 PM (1).jpeg>).
+- Page 2: Q1 and Q2a-c — `WhatsApp Image 2026-10-15 at 10.12.58 PM.jpeg`.
+- Page 3: Q2d, Q3, and Q4a-b — `WhatsApp Image 2026-10-15 at 10.12.57 PM.jpeg`.
+- Page 4: Q4c-d and Q5 — `WhatsApp Image 2026-10-15 at 10.12.57 PM (1).jpeg`.
 
 Use the following as a revision checklist after learning the corresponding topics, not as a record of past performance:
 
@@ -389,10 +443,9 @@ First attempt topic by topic without timing, recording errors in PROGRESS.md. Us
 
 ### Repeat-exam confirmation
 
-**Possible timing: around March 2027; unconfirmed.** Eligibility, registration deadlines, syllabus, exam format, and the actual exam date still need verification with the university.
+**Recent examination outcome: unknown. Repeat requirement and possible timing around March 2027: unconfirmed.** Eligibility, registration deadlines, syllabus, exam format, and the actual exam date still need verification with the university.
 
-- [ ] Obtain the official repeat-exam syllabus and past papers; lecture notes and Problem Sheets 00-07 are now available, but exam coverage remains unconfirmed.
+- [ ] Confirm the result and whether a repeat is needed; obtain the official applicable syllabus and past papers; verify the lecture-note/problem-sheet inventory and recover Lecture 05; exam coverage remains unconfirmed.
 - [ ] Map each examinable topic to prerequisites and a practice set.
 - [ ] Use Section 4 as the provisional topic order, inserting prerequisite revision where needed. The confirmed syllabus determines exam coverage.
 - [ ] Once the date is confirmed, plan backwards for topic practice, mixed revision, and timed papers, leaving buffer for other assessments.
-
