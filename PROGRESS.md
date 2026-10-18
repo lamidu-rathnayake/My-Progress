@@ -2,7 +2,7 @@
 
 ### Next study actions
 
-- [ ] Study populations, samples, variables and data types; record the video title/link in a topic note.
+- [ ] Study populations, samples, variables and data types; record the video title/link in a topic note (intro to statistics).
 
 ### Information still needed
 
