@@ -1,6 +1,6 @@
 # Notes Guide
 
-Create a topic note when you actually study, using the [study-note template](../templates/study-note.md). No learning notes have been invented during repository organization.
+Create a topic note when you actually study, recording the source, your explanation, an example, independent practice, mistakes and review status. No learning notes have been invented during repository organization.
 
 | Topic | Destination when needed |
 |---|---|

@@ -1,69 +1,71 @@
 # University
 
-Updated: 18 October 2026. Curriculum references below are retained from the 15 October journal, not independently verified in this update.
+Updated: 18 October 2026. **The following Year 3 and Year 4 curriculum and elective selections are finalized and locked by the user.** They supersede the earlier screenshot-based selections and uncertain Year 4 allocation. Do not recommend changing or replacing electives. Semester dates, detailed syllabi and assessment deadlines are still to be recorded; the module choices themselves are settled.
 
-## Confirmed personal direction
+The independent career direction is **Systems Programming & Intelligent Machine Engineering**, with flexible exploration of robotics, embedded systems, automation and applied AI. University coursework is fixed; the exploration adapts to available time. See the [semester roadmap](ROADMAP.md) for prerequisite planning.
 
-- Software Engineering undergraduate at SLTC Research University; entering Year 3 in 2026.
-- On 15 October the upcoming semester was recorded as not yet started. Its current start date and actual timetable remain unconfirmed.
-- User-selected electives: Linear Algebra, Machine Learning, and Natural Language Processing. Registration, availability, and semester placement are not yet verified.
-- SMA2306 Probability & Statistics is the current revision priority. The recent examination result is unknown; a repeat requirement and possible March 2027 timing are unconfirmed.
+## Immediate academic priority
 
-## Active academic tracker
+**SMA2306 — Probability & Statistics:** revision remains the immediate priority while the examination result is unconfirmed. A repeat requirement and possible March 2027 timing remain unconfirmed. Use the [mathematics plan](MATHEMATICS.md), verify the assessed syllabus and recover/verify Lecture 05 and the added normal-distribution/CLT bridge. No grade, pass or failure is inferred.
 
-University requirements take precedence over optional specialization work. Add confirmed assessments here as they are announced; do not infer registrations from the curriculum reference.
+## Year 3 — Semester 1
 
-| Academic year / semester | Module | Assessment requirements | Current status | Supporting material / next action |
-|---|---|---|---|---|
-| Earlier study; exact year/semester unconfirmed | SMA2306 — Probability & Statistics | Recent examination attempted; result unknown. Repeat requirement, format and dates unconfirmed | Current revision priority | [Mathematics](MATHEMATICS.md); verify result, syllabus and Lecture 05 |
-| Year 3 / Semester 1 curriculum reference | CCS3300 — Software Architecture | Not supplied | Registration and assessments unconfirmed | Add issued module guide and deadlines |
-| Year 3 / Semester 1 curriculum reference | CCS3310 — Software Engineering Methods | Not supplied | Registration and assessments unconfirmed | Add issued module guide and deadlines |
-| Year 3 / Semester 1 curriculum reference | CCS3311 — Software Quality Assurance | Not supplied | Registration and assessments unconfirmed | Add issued module guide and deadlines |
+| Code | Module | Category |
+|---|---|---|
+| CCS2360 | Technology Challenge Competition | Core |
+| CCS3300 | Software Architecture | Core |
+| CCS3310 | Software Engineering Methods | Core |
+| CCS3311 | Software Quality Assurance | Core |
+| CCS3356 | Natural Language Processing | Elective |
 
-For each confirmed assessment, record module, deliverable/exam, due date, status, next action and supporting note/resource. No grades or completed assessments are inferred. Other modules and electives below remain curriculum references until registration is confirmed.
+## Year 3 — Semester 2
 
-## Curriculum reference supplied as screenshots
+| Code | Module | Category |
+|---|---|---|
+| CCS3302 | Introduction to Research Methods | Core |
+| CCS3313 | Advanced Software Design | Core |
+| SMA2307 | Discrete Mathematics | Core |
+| CCS4340 | Machine Learning | Elective |
+| SMA2202 | Linear Algebra | Elective |
 
-The screenshots are reference material, not instructions or confirmation of current registration. Module availability and programme rules should be checked against the university's current guidance.
+## Year 4 — Semester 1
 
-### Level 3, Semester 1
+| Code | Module | Category |
+|---|---|---|
+| CCS3301 | Capstone Project — Part 1 | Core |
+| CCS3440 | Artificial Intelligence | Core |
+| IHM1301 | Human Behavior and Ethics | Core |
+| CCS4310 | Deep Learning | Elective |
+| CCS4353 | Internet of Things | Elective |
 
-The screenshot states four core modules plus at least one elective, totaling 15 credits:
+## Year 4 — Semester 2
 
-- CCS2360 — Technology Challenge Competition (3 credits).
-- CCS3300 — Software Architecture (3 credits).
-- CCS3310 — Software Engineering Methods (3 credits).
-- CCS3311 — Software Quality Assurance (3 credits).
-- Selected elective shown: CCS3356 — Natural Language Processing (3 credits).
+| Code | Module | Category |
+|---|---|---|
+| CCS4601 | Industrial Training | Core |
+| CCS4301 | Capstone Project — Part 2 | Core |
+| CCS4354 | Tensors and Graphs (with programming) | Elective |
+| SMA2305 | Numerical Analysis | Elective |
 
-### Level 3, Semester 2
+## Assessment tracking
 
-The screenshot states three core modules plus at least two electives, totaling 15 credits:
-
-- CCS3302 — Introduction to Research Methods (3 credits).
-- CCS3313 — Advanced Software Design (3 credits).
-- SMA2307 — Discrete Mathematics (3 credits).
-
-The broader elective list includes CCS4340 — Machine Learning and SMA2202 — Linear Algebra, each 3 credits. Their placement and eligibility for this semester need confirmation; the screenshot alone does not establish them.
-
-### Level 4 reference
-
-- Semester 1: CCS3301 — Capstone Project-Part 1 (3 credits), CCS3440 — Artificial Intelligence (4), IHM1301 — Human Behavior and Ethics (3), plus at least two electives; stated total 16 credits.
-- Semester 2: CCS4601 — Industrial Training (6 credits, NGPA) and CCS4301 — Capstone Project-Part 2 (3), plus at least two electives; stated total 15 credits.
-- Highlighted electives: CCS3410 — Deep Learning, CCS4351 — Functional Programming, CCS4352 — Application Security, CCS4354 — Tensors and Graphs (with programming), each 3 credits. These highlights are not treated as confirmed user selections.
+The selections above are confirmed; no assessments, deadlines, grades or completed modules have been supplied. When an assessment is announced, record its module code, deliverable/exam, due date, current status, next action and supporting note/resource here. Keep actual learning evidence in [Progress](PROGRESS.md). Do not interpret a finalized selection as a completed module.
 
 ## Coursework integration
 
-- Linear Algebra: vectors, matrices, transformations, and numerical exercises.
-- Machine Learning: baseline modelling, data splits, evaluation, and error analysis.
-- NLP: apply relevant statistics and ML prerequisites to course exercises without creating another substantial project.
-- Architecture, methods, and quality assurance: use FieldSync as a learning example where course rules and work confidentiality permit.
-- Research Methods and capstone: develop a feasible systems or intelligent-machine question and evaluation method after exploration and supervisor discussion. No robotics, embedded systems, industrial automation or audio topic is assumed selected.
+Use university lectures, tutorials and assessments as the primary learning route. A coursework exercise can satisfy both the module and a matching roadmap topic; do not repeat it as a second course or compulsory project. Check the actual module outline before assuming detailed topic coverage.
 
-## Pending information
+- Year 3 Semester 1: bridge only the Python, probability and basic vector concepts needed by NLP; use architecture, methods and quality work for software-engineering practice.
+- Year 3 Semester 2: let Linear Algebra, Discrete Mathematics and ML supply their core subjects. Bridge teaching-order gaps and missing calculus as needed; use Research Methods for experiment design.
+- Year 4 Semester 1: prepare ML/gradient prerequisites for Deep Learning and basic programming, electronics and networking prerequisites for IoT as its outline requires. Reuse course practicals for embedded/sensor exploration where suitable.
+- Year 4 Semester 2: use Linear Algebra and Discrete Mathematics as the base for Tensors and Graphs; refresh functions, calculus, linear systems and numerical computation for Numerical Analysis. Let that module teach numerical methods rather than starting a duplicate syllabus.
+- Capstone: choose a feasible question with supervisor approval and reuse earlier research/evaluation skills. No particular robotics, embedded, automation or audio topic is assumed selected.
+- FieldSync stays a separate ongoing project. Use appropriate experience in coursework only where course rules permit, without copying employer-confidential material.
 
-- Confirmed semester dates, timetable, module registrations, and assessment deadlines.
-- Recent examination result; whether a repeat is required; if so, date, eligibility, registration deadline, syllabus and format.
-- Capstone requirements and whether current employment can meet industrial training requirements; do not assume equivalence.
+## Pending operational information
 
-No assessment dates have been supplied yet. Add each confirmed assessment with module, deliverable, due date, status, and next action here.
+- Actual semester dates, lecture/practical timetable, module outlines and assessment deadlines.
+- Probability & Statistics result; if a repeat is required, its date, eligibility, registration deadline, syllabus and format.
+- Capstone requirements and whether current employment can meet industrial-training requirements; do not assume equivalence.
+
+Earlier screenshots provided curriculum credit information, but this tracker follows the finalized module list without inferring new credit totals or administrative requirements. No elective-selection decision remains pending.

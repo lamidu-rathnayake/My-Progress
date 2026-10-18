@@ -39,13 +39,27 @@ Use brief sessions for one immediate gap at a time. Do not finish all foundation
 
 An optional short diagnostic can identify gaps in fractions, signed numbers, powers, equations and graph reading. Revise only what blocks current work; the detailed reference checklists below are a menu, not an immediate workload.
 
+## Semester alignment — use coursework once
+
+Follow the [semester roadmap](ROADMAP.md) rather than attempting every checklist below independently. Existing in-progress statuses remain valid. These checklists identify concepts and gaps, not additional courses to complete alongside university modules.
+
+| When | Primary mathematics route | Extra study only if needed |
+|---|---|---|
+| Now and Level 3 Semester 1 | SMA2306 statistics preparation; algebra gaps alongside it | Basic vectors, dot products and array shapes before dependent NLP material; no full ML course in advance |
+| Level 3 Semester 2 | SMA2202 Linear Algebra and SMA2307 Discrete Mathematics through university lectures, tutorials and assessments | Bridge only concepts needed earlier by concurrent CCS4340 Machine Learning; calculus/gradients where prior or current courses have not supplied them |
+| Year 4 Semester 1 | Apply earlier mathematics in AI and Deep Learning; use basic units/algebra in IoT | Revisit specific gaps in chain rule, partial derivatives, gradients and optimization before use; follow actual module coverage |
+| Year 4 Semester 2 | CCS4354 Tensors and Graphs and SMA2305 Numerical Analysis through coursework | Refresh linear algebra, discrete graphs, array shapes, functions, derivatives, basic integration and linear systems before dependent lessons; let Numerical Analysis supply its numerical-methods sequence |
+| Capstone and training | Apply the mathematics needed by the chosen problem and evaluation | Numerical methods beyond SMA2305 coverage, differential equations or control mathematics only if the problem requires them |
+
+For a covered topic, use a university problem or assessment as evidence of understanding and update the matching checklist; do not repeat a separate course. If a topic is introduced before its prerequisite module teaches it, learn the minimum bridge now and consolidate through that module later. Topic coverage and successful understanding are separate: revisit errors even after lectures have covered a subject.
+
 ## Future foundations and optional applications
 
-After the examination priority is resolved, increase emphasis gradually on linear algebra (Section 5), differential and integral calculus (6.1–6.3), multivariable calculus (6.4), and optimization (6.5) when relevant. Continue discrete mathematics, logic and combinatorial reasoning alongside university work and DSA. Numerical methods can follow: floating-point error, conditioning, numerical differentiation/integration and stable linear-system solutions.
+After the examination priority is resolved, increase emphasis gradually on linear algebra (Section 5), differential and integral calculus (6.1–6.3), multivariable calculus (6.4), and optimization (6.5) when relevant. Continue discrete mathematics, logic and combinatorial reasoning alongside university work and DSA. Use Year 4 Semester 2 SMA2305 Numerical Analysis as the main numerical-methods route. Check its outline for floating-point error, conditioning, numerical differentiation/integration and linear-system methods; study only missing prerequisites before the relevant lessons, not a duplicate course.
 
 These foundations support **Systems Programming & Intelligent Machine Engineering** without committing to a final domain. Choose application mathematics only as coursework or a small exploration needs it:
 
-- Electronics and sensors: units, algebra, functions and basic trigonometry; complex numbers later for relevant circuit models.
+- Electronics, sensors and signal processing: units, algebra, functions and basic trigonometry; then sampled measurements, noise and filtering as needed. Use complex numbers and Fourier concepts when a sensor/systems problem requires them. Music processing is not the main application.
 - Control systems: calculus, linear algebra and basic differential equations before dependent dynamic-system models; feedback and stability as the exploration develops.
 - Robotics: vectors, coordinate frames, transformations and basic geometry; further calculus and control only when needed.
 - Applied AI: statistics, linear algebra and evaluation; calculus and optimization before gradient-based methods.
@@ -56,7 +70,7 @@ Complex numbers, signals and systems, and Fourier analysis in Section 7 remain u
 
 **Concept → Notes → Worked Example → Independent Practice → Review.** A topic is ready to move forward when you can explain the idea, choose an appropriate method, solve a representative new problem without a worked solution and revisit errors successfully. Video completion alone does not meet this standard.
 
-Use the [study-note template](templates/study-note.md) and [notes guide](notes/README.md). Record the topic, source, own explanation, definitions, formulas, worked example, independent question and attempt, mistakes/questions, a relevant application and review status. Add actual evidence to [Progress](PROGRESS.md); use [Schedule](SCHEDULE.md) to limit the workload.
+Use the [notes guide](notes/README.md) for a short topic note. Record the topic, source, own explanation, definitions, formulas, worked example, independent question and attempt, mistakes/questions, a relevant application and review status. Add actual evidence to [Progress](PROGRESS.md); use the weekly study limits in the [semester roadmap](ROADMAP.md) to limit the workload.
 
 ## Detailed reference checklists
 
