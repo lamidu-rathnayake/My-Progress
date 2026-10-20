@@ -11,8 +11,6 @@
 - [ ] Indexed values, sigma notation, finite sums, and sums of squares.
 - [ ] Factorials, permutations, and combinations for counting outcomes.
 
-**Learning — 2026-10-18:** Counting principles, permutations, combinations, and factorial cancellation introduced through worked examples; independent practice pending. See [today's study note](notes/mathematics/probability-statistics/2026-10-18-counting-principles.md).
-
 ### 1.2 Statistical language and data — Introduction to Statistics; Problem Sheet 00
 
 - [ ] Elements, variables, observations, and datasets.
